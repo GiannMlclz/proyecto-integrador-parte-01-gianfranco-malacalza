@@ -23,3 +23,7 @@ $ npm i sass-embedded -D
 ```
 
 ## Agrego el archivo 'vite.config.js'
+
+## link al repositorio remoto
+
+https://github.com/GiannMlclz/proyecto-integrador-parte-01-gianfranco-malacalza
