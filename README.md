@@ -33,3 +33,5 @@ https://github.com/GiannMlclz/proyecto-integrador-parte-01-gianfranco-malacalza
 ## estilizamos el nav-link
 
 ## Agregamos todas las imagenes del proyecto
+
+## Agrego el Logo y lo acomodamos

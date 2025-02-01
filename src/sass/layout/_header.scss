@@ -74,12 +74,13 @@
 
 .search-bar {
     display: flex;
-    background-color: olivedrab;
     justify-content: space-around;
 
     &__logo-container { /* .search-bar__logo-container */
-        width: 18.75rem;
-        height: 3.75rem;
+        padding-left: 1rem;
+        padding-top: 0.25rem;
+        width: 5rem;
+        height: 3.5rem;
     }
 
     &__form-container {
