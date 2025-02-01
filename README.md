@@ -41,3 +41,5 @@ https://github.com/GiannMlclz/proyecto-integrador-parte-01-gianfranco-malacalza
 ## Inserto un carrito
 
 ## Agregamos parrafo, titulo y tipografia
+
+## Primera card le añado la información

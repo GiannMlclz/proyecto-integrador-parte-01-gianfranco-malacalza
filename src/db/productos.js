@@ -1,9 +1,10 @@
 const productos = [
     { 
       id: 1, 
-      nombre: "Iphone 11 Pro Max", 
-      foto: "imgs/apple-iphone-11-pro-max.jpg", 
-      descripcion: "Iphone 11 super pro max", precio: 222.20
+      nombre: "Jamon De Cerdo", 
+      foto: "imgs/jamon-de-cerdo.webp", 
+      descripcion: "Un jamón fresco y crudo de excelente calidad, color rosado brillante de grasa blanca y firme.", 
+      precio: "Precio por Kg: 3.931$"
       },
     { 
       id: 2, 
@@ -24,13 +25,64 @@ const productos = [
       nombre: "Drone DJI", 
       foto: "imgs/drone-dji.jpg", 
       descripcion: "Alto drone", 
-      precio: 555.50},
+      precio: 555.50
+    },
     { 
       id: 5, 
       nombre: "Auriculares Sony", 
       foto: "imgs/auriculares-sony.jpg", 
       descripcion: "Cancelación activa!", 
-      precio: 666.60}
-  ]
+      precio: 666.60
+    },
+    { 
+      id: 5, 
+      nombre: "Auriculares Sony", 
+      foto: "imgs/auriculares-sony.jpg", 
+      descripcion: "Cancelación activa!", 
+      precio: 666.60
+    },
+    { 
+      id: 5, 
+      nombre: "Auriculares Sony", 
+      foto: "imgs/auriculares-sony.jpg", 
+      descripcion: "Cancelación activa!", 
+      precio: 666.60
+    },
+    { 
+      id: 5, 
+      nombre: "Auriculares Sony", 
+      foto: "imgs/auriculares-sony.jpg", 
+      descripcion: "Cancelación activa!", 
+      precio: 666.60
+    },
+    { 
+      id: 5, 
+      nombre: "Auriculares Sony", 
+      foto: "imgs/auriculares-sony.jpg", 
+      descripcion: "Cancelación activa!", 
+      precio: 666.60
+    },
+    { 
+      id: 5, 
+      nombre: "Auriculares Sony", 
+      foto: "imgs/auriculares-sony.jpg", 
+      descripcion: "Cancelación activa!", 
+      precio: 666.60
+    },
+    { 
+      id: 5, 
+      nombre: "Auriculares Sony", 
+      foto: "imgs/auriculares-sony.jpg", 
+      descripcion: "Cancelación activa!", 
+      precio: 666.60
+    },
+    { 
+      id: 5, 
+      nombre: "Auriculares Sony", 
+      foto: "imgs/auriculares-sony.jpg", 
+      descripcion: "Cancelación activa!", 
+      precio: 666.60
+    },
+    ]
 
 export default productos
