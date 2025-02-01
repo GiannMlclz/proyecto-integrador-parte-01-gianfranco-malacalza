@@ -45,3 +45,11 @@ https://github.com/GiannMlclz/proyecto-integrador-parte-01-gianfranco-malacalza
 ## Primera card le añado la información
 
 ## Primera card le añado el estilo
+```sh
+background-image: linear-gradient(to top, #D90416, #F2F2F2 50%);
+```
+
+## Le añado estilo a la segunda card
+```sh
+background-image: linear-gradient(to bottom, #D90416, #F2F2F2);
+```
