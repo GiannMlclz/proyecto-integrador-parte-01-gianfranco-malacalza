@@ -37,3 +37,5 @@ https://github.com/GiannMlclz/proyecto-integrador-parte-01-gianfranco-malacalza
 ## Agrego el Logo y lo acomodamos
 
 ## modificamos la barra de busqueda dandole border-radius, agregandole un placeholder y darle estilo. añado la lupa de busqueda
+
+## Inserto un carrito

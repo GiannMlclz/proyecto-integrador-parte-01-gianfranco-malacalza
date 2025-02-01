@@ -91,8 +91,9 @@
     }
 
     &__carrito-container {
-        flex: 0 0 3rem; /* shorthand (grow shrink basis) */
-        background-color: goldenrod;
+        width: 2rem;
+        flex: 0 0 4rem; /* shorthand (grow shrink basis) */
+        padding-right: 0.75rem;
     }
 
 
