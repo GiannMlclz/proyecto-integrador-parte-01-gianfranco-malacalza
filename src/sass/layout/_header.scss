@@ -5,10 +5,24 @@
 .main-header {
     display: flex;
     flex-direction: column-reverse;
+
+    @media screen and (min-width: 992px) {
+        & {
+            flex-direction: column;
+        }
+    }
 }
 
 #menu {
     display: none;
+
+    &:checked + .nav-bar {
+        display: block;
+    }
+
+    &:checked ~ .search-bar .menu-toogle .menu-toogle__label {
+        background-color: #ffc9d6;
+    }
 
     /* Hacer funcionar el checkbox -> hacer funcionar el menú hamburguesa */
 }
@@ -19,13 +33,19 @@
 
 .nav-bar {
     background-color: mediumaquamarine;
-    /* display: none; */
+    display: none;
 
     &__nav-list { /* -nav-bar__nav-list */
         display: flex;
         flex-direction: column;
         justify-content: center;
         list-style-type: none;
+
+        @media  screen and (min-width: 992px ) {
+            & {
+                flex-direction: row;
+            }
+        }
     }
 
     &__nav-item { /* .nav_bar__nav-item */
@@ -38,6 +58,12 @@
         background-color: purple;
         padding: 1rem 2rem;
         color: white;
+    }
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: block;
+        }
     }
 }
 
@@ -58,6 +84,9 @@
     &__form-container {
         padding: 1rem;
         background-color: gold;
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
     }
 
     &__carrito-container {
@@ -75,6 +104,55 @@
 
     &__form-submit {
         background-color: darkslategray;
+    }
+}
+
+/* ----------------------------------------------- */
+/* MENÚ TOOGLE                                     */
+/* ----------------------------------------------- */
+
+.menu-toogle {
+    display: block;
+
+    background-color: red;
+    flex: 0 0 3rem;
+    position: relative;
+    cursor: pointer;
+
+    &__label {
+        display: block;
+        background-color: white;
+        height: 100%;
+    }
+
+    &__top-bread,
+    &__meat,
+    &__bottom-bread {
+        display: block;
+        background-color: #333;
+        height: .2rem;
+        position: absolute;
+        left: .5rem;
+        right: .5rem;
+    }
+
+    &__top-bread {
+        top: .8rem;
+    }
+
+    &__meat { /* centrar sin usar flexbox */
+        top: 50%; /* centrado verticalmente */
+        margin-top: -.1rem;
+    }
+
+    &__bottom-bread {
+        bottom: .8rem;
+    }
+
+    @media screen and (min-width: 992px) {
+        & {
+            display: none;
+        }
     }
 }
 
