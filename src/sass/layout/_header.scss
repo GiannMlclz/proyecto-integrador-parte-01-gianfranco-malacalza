@@ -31,8 +31,7 @@
 /* NAVBAR                           */
 /* -------------------------------- */
 
-.nav-bar {
-    background-color: mediumaquamarine;
+.nav-bar { 
     display: none;
 
     &__nav-list { /* -nav-bar__nav-list */
@@ -55,9 +54,11 @@
 
     &__nav-link {
         display: block;
-        background-color: purple;
-        padding: 1rem 2rem;
-        color: white;
+        background-color: #f1f2f3;
+        padding: 1rem 8rem;
+        color: darkred;
+        font-weight: 700;
+        text-decoration: none;
     }
 
     @media screen and (min-width: 992px) {
