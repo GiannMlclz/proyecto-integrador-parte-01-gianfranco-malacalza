@@ -85,7 +85,6 @@
 
     &__form-container {
         padding: 1rem;
-        background-color: gold;
         display: flex;
         flex-basis: 100%;
         justify-content: center;
@@ -96,16 +95,24 @@
         background-color: goldenrod;
     }
 
-    &__form-label {
-        background-color: greenyellow;
-    }
 
     &__form-search {
-        background-color: deeppink;
+        width: 80%;
+        border-radius: 1.25rem;
+        border-color: black;
+        background-color: #ffc9d6; 
+
+        @media screen and (min-width: 992px) {
+            & {
+                width: 24rem;
+            }
+    }
     }
 
     &__form-submit {
-        background-color: darkslategray;
+        width: 2.75rem;
+        border: none;
+        background-color: #fff;
     }
 }
 
