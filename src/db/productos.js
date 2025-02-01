@@ -11,7 +11,7 @@ const productos = [
       nombre: "IPhone 12", 
       foto: "imgs/apple-iphone-12.jpg", 
       descripcion: "Iphone 12, flojito", 
-      precio: 333.30
+      precio: 333.30,
     },
     { 
       id: 3, 
@@ -35,49 +35,49 @@ const productos = [
       precio: 666.60
     },
     { 
-      id: 5, 
+      id: 6, 
       nombre: "Auriculares Sony", 
       foto: "imgs/auriculares-sony.jpg", 
       descripcion: "Cancelación activa!", 
       precio: 666.60
     },
     { 
-      id: 5, 
+      id: 7, 
       nombre: "Auriculares Sony", 
       foto: "imgs/auriculares-sony.jpg", 
       descripcion: "Cancelación activa!", 
       precio: 666.60
     },
     { 
-      id: 5, 
+      id: 8, 
       nombre: "Auriculares Sony", 
       foto: "imgs/auriculares-sony.jpg", 
       descripcion: "Cancelación activa!", 
       precio: 666.60
     },
     { 
-      id: 5, 
+      id: 9, 
       nombre: "Auriculares Sony", 
       foto: "imgs/auriculares-sony.jpg", 
       descripcion: "Cancelación activa!", 
       precio: 666.60
     },
     { 
-      id: 5, 
+      id: 10, 
       nombre: "Auriculares Sony", 
       foto: "imgs/auriculares-sony.jpg", 
       descripcion: "Cancelación activa!", 
       precio: 666.60
     },
     { 
-      id: 5, 
+      id: 11, 
       nombre: "Auriculares Sony", 
       foto: "imgs/auriculares-sony.jpg", 
       descripcion: "Cancelación activa!", 
       precio: 666.60
     },
     { 
-      id: 5, 
+      id: 12, 
       nombre: "Auriculares Sony", 
       foto: "imgs/auriculares-sony.jpg", 
       descripcion: "Cancelación activa!", 

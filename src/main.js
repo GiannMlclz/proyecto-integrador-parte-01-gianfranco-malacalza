@@ -24,6 +24,7 @@ const start = () => {
             <h2 class="card__heading">${prod.nombre}</h2>
             <div class="card__description">
               <p>${prod.descripcion}</p>
+              <p>${prod.precio}</p>
             </div>
           </div>
         </article>
@@ -154,7 +155,7 @@ const start3 = () => {
 
 
 
-window.addEventListener('DOMContentLoaded', start3)
+window.addEventListener('DOMContentLoaded', start)
 
 
 

@@ -43,3 +43,5 @@ https://github.com/GiannMlclz/proyecto-integrador-parte-01-gianfranco-malacalza
 ## Agregamos parrafo, titulo y tipografia
 
 ## Primera card le añado la información
+
+## Primera card le añado el estilo
