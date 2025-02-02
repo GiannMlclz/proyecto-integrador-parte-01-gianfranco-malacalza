@@ -61,3 +61,5 @@ background-image: linear-gradient(to bottom, #D90416, #F2F2F2);
 
 
 ## añado Información al footer
+
+## Le doy estilo al footer
