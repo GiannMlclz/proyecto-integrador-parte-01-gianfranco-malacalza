@@ -39,6 +39,7 @@ https://github.com/GiannMlclz/proyecto-integrador-parte-01-gianfranco-malacalza
 ## modificamos la barra de busqueda dandole border-radius, agregandole un placeholder y darle estilo. añado la lupa de busqueda
 
 ## Inserto un carrito
+Esto lo hacemos con una imagen
 
 ## Agregamos parrafo, titulo y tipografia
 
@@ -53,3 +54,5 @@ background-image: linear-gradient(to top, #D90416, #F2F2F2 50%);
 ```sh
 background-image: linear-gradient(to bottom, #D90416, #F2F2F2);
 ```
+
+## Creo todos los productos con su respectiva imagen, descripción y precio.
