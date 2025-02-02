@@ -40,6 +40,7 @@
 
     &__image-container {
         height: 200px;
+        background-color: blue;
         overflow: hidden;
         clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%); /* Estado inicial */
     }
@@ -52,7 +53,7 @@
     /* Responsive ->  992px */
 
     @media screen and (min-width: 992px) {
-        & { /* .card */
+        & { 
             width: 220px;
             max-width: 300px;
             height: 400px;
