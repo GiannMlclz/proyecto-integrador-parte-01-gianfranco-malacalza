@@ -58,3 +58,6 @@ background-image: linear-gradient(to bottom, #D90416, #F2F2F2);
 ## Creo todos los productos con su respectiva imagen, descripción y precio.
 
 ## Arrancamos a crear un footer para la pagina
+
+
+## añado Información al footer
