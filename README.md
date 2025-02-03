@@ -66,4 +66,6 @@ background-image: linear-gradient(to bottom, #D90416, #F2F2F2);
 
 ## Añado un segundo footer
 
-## Lo estiliz0
+## Lo estilizo y lo acomodo, tambien añado una imagen
+
+## Creo una página de contacto y le coloco el link
