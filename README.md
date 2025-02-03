@@ -69,3 +69,5 @@ background-image: linear-gradient(to bottom, #D90416, #F2F2F2);
 ## Lo estilizo y lo acomodo, tambien añado una imagen
 
 ## Creo una página de contacto y le coloco el link
+
+## Añado la nav var con las otras páginas en la página de contacto 
