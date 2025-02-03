@@ -42,3 +42,25 @@
         
     }
 }
+
+.footer-2 {
+    height: 150px;
+    background-color: #191919;
+
+
+    &__contenedor-principal-2 {
+        
+        padding: 25px 25px 0px 25px;
+        
+    }
+
+    &__logo {
+        text-align: center;
+        
+    }
+
+    &__copyright {
+        color: white;
+        text-align: right;
+    }
+}
