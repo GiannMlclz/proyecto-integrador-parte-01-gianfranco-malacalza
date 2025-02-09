@@ -157,5 +157,12 @@ const start3 = () => {
 
 window.addEventListener('DOMContentLoaded', start)
 
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("scrollLink").addEventListener("click", function (event) {
+      event.preventDefault(); 
+      document.getElementById("abajo").scrollIntoView({ behavior: "smooth" });
+  });
+});
+
 
 
