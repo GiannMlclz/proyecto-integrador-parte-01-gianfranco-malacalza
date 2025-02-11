@@ -78,3 +78,5 @@ background-image: linear-gradient(to bottom, #D90416, #F2F2F2);
 ```
 
 ## Le doy estilo al formulario, acomodo el mapa y agrego un checkbox
+
+## Termino de estilizar el formulario y sus botones

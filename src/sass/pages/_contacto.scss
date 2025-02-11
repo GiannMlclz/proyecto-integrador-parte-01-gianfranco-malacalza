@@ -77,12 +77,7 @@
         font-size: 24px;
         font-weight: bold;
         color: black;
-
-
-
     }
-
-
 
     &__fieldset {
         width: 22rem;
@@ -109,6 +104,9 @@
         border-bottom: 2px solid #c90035;
         padding-bottom: 0.25rem;
 
+
+        
+
         &:focus {
             outline: 0;
             border-bottom: 2px solid #c90035;
@@ -125,6 +123,32 @@
         color: #b8b8b8;
     }
 
+    &__checkbox {
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 15px;
+        height: 15px;
+        background: #c90035;
+        border-radius: 3px;
+    }
+
+    &__label-checkbox {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    &__botones {
+        
+        color: #c90035;
+        
+        font-size: 15px;
+        padding: 10px;
+        margin-top: 30px;
+        border: 1px solid  darkred;
+        border-radius: 5px;
+        width: 150px;
+        
+    }
 
 
 
