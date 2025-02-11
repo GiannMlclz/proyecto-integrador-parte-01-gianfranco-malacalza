@@ -70,4 +70,11 @@ background-image: linear-gradient(to bottom, #D90416, #F2F2F2);
 
 ## Creo una página de contacto y le coloco el link
 
-## Añado la nav var con las otras páginas en la página de contacto 
+## Añado la nav var con las otras páginas en la página de contacto
+
+## Añado un mapa con la dirección, un formulario para registrarse y las redes sociales
+```sh
+<iframe><iframe/> para el mapa // fieldset y legend para el form // svg https://flowbite.com/icons/ para los iconos de las redes
+```
+
+## Le doy estilo al formulario, acomodo el mapa y agrego un checkbox

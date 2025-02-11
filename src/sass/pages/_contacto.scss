@@ -1,22 +1,23 @@
-
-.nav-bar { 
+.nav-bar {
     display: none;
 
-    &__nav-list { /* -nav-bar__nav-list */
+    &__nav-list {
+        /* -nav-bar__nav-list */
         display: flex;
         flex-direction: column;
         justify-content: center;
         list-style-type: none;
-        
 
-        @media  screen and (min-width: 992px ) {
+
+        @media screen and (min-width: 992px) {
             & {
                 flex-direction: row;
             }
         }
     }
 
-    &__nav-item { /* .nav_bar__nav-item */
+    &__nav-item {
+        /* .nav_bar__nav-item */
         text-align: center;
         background-color: pink;
     }
@@ -37,3 +38,96 @@
     }
 }
 
+.main-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #f2f2f2;
+    background-image: url(/public/imgs/interpork-planta.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+
+
+    &__contacto {
+        display: flex;
+        flex-direction: column;
+        /* width: 48%; */
+
+    }
+
+    &__mapa {
+
+        width: 22rem;
+        height: 25rem;
+        border: 0.313rem solid #c90035;
+
+        @media screen and (min-width: 992px) {
+            width: 58rem;
+            height: 48rem;
+
+        }
+    }
+
+
+    &__h2 {
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+
+
+
+    }
+
+
+
+    &__fieldset {
+        width: 22rem;
+        height: 25rem;
+        background: #ffffff;
+        border-radius: 5px;
+
+    }
+
+    &__legend {
+        font-size: large;
+        font-weight: 600;
+        padding: 5px;
+        border-radius: 5px;
+        color: darkred;
+        background-color: #f1f2f3;
+        text-align: center;
+    }
+
+    &__casilla {
+        margin-left: 0.75rem;
+        width: 20rem;
+        border: 0;
+        border-bottom: 2px solid #c90035;
+        padding-bottom: 0.25rem;
+
+        &:focus {
+            outline: 0;
+            border-bottom: 2px solid #c90035;
+        }
+
+        &:hover {
+            border: none;
+        }
+    }
+
+    &__label {
+        margin-left: 0.75rem;
+        font-size: smaller;
+        color: #b8b8b8;
+    }
+
+
+
+
+
+
+}
