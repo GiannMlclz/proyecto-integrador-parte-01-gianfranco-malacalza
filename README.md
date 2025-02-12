@@ -83,3 +83,10 @@ background-image: linear-gradient(to bottom, #D90416, #F2F2F2);
 ```sh
 https://validator.w3.org/
 ```
+
+## Pusheamos y subimos a Netlify
+```sh
+git push -u origin main
+
+https://proyecto-integrador-etapa1-gianmlclz.netlify.app/
+```

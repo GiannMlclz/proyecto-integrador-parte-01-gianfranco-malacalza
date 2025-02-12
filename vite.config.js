@@ -6,9 +6,12 @@ export default {
         devSourcemap: true
     },
     build: {
-        rollupOptions: {
-            input: resolve(__dirname, 'index.html')
+      rollupOptions: {
+        input: {
+          main: resolve(__dirname, 'index.html'),
+          contacto: resolve(__dirname, 'contacto.html')
         }
+      }
     }
-}
+  }
 
